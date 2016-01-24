@@ -18,8 +18,7 @@ body {
   margin: 0;
   font-size: 4.5em;
   font-weight: 700;
-    background-color: rgba(0,0,0,0.3);
-
+  text-shadow:1px 1px 1px black;
 }
 
 /* Side Menu */
@@ -152,7 +151,13 @@ i.service-icon {
 }
 
 /* Callout */
+.textinage {
+  text-align: justify;
+  text-indent: 2rem;
+  padding-top: 2rem;
+  
 
+} 
 .callout {
   color: #ffffff;
   display: table;
@@ -202,7 +207,7 @@ i.service-icon {
 /* Map */
 
 .map {
-  height: 500px;
+  /*height: 500px;*/
 }
 
 /* Footer */
@@ -240,7 +245,11 @@ i.scroll:hover {
   }
 
   .map {
-	height: 75%;
+	/*height: 75%;*/
   }
+
+}
+
+.list-inline {
 
 }
